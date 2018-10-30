@@ -1,0 +1,26 @@
+{
+    "name": "egonom/sntest",
+    "description": "summernote plugin teszt",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "egonom"
+        }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/egonom/summernote-uploadfile.git" }
+    ],
+    "require": {
+        "egonom/summernote-uploadfile": "*"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "npm install --global gulp",
+            "npm link gulp",
+            "npm install --global gulp-replace",
+            "npm link gulp-replace",
+            "gulp default"
+        ]
+    }
+}

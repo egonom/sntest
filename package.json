@@ -1,0 +1,19 @@
+{
+  "name": "sntest",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "egonom/summernote-uploadfile"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "summernote": "^0.8.10"
+  },
+  "devDpendencies": {
+    "summernote-uploadfile": "latest"
+  },
+  "devDependencies": {
+    "gulp-replace": "^1.0.0"
+  }
+}
